@@ -1,5 +1,11 @@
 programa
 {
+
+//Exercicio 1 - Introdução
+//Autor: Isabella Alves
+//Turma 54 - Generation Brasil
+//Data: 27/05/2022
+
 	inclua biblioteca Sons
 	
 	funcao inicio()
@@ -11,8 +17,10 @@ programa
 
 		escreva("Digite os anos que voce tem: ")
 		leia(anos)
+		
 		escreva("Digite os meses que voce tem: ")
 		leia(meses)
+		
 		escreva("Digite os dias que voce tem: ")
 		leia(dias)
 
@@ -34,7 +42,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 483; 
+ * @POSICAO-CURSOR = 104; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

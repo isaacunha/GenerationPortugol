@@ -1,7 +1,7 @@
 programa
 {
 //Exercicio 1 - Condicional
-//Autor: Isabella
+//Autor: Isabella Alves
 //Turma 54 - Generation Brasil
 //Data: 30/05/2022
 
@@ -23,8 +23,9 @@ programa
 		senao {
 			excesso = 0
 			multa = 0
-			escreva("Está abaixo de 50kg, não há multa!")
+			escreva("Está abaixo de 50kg, não há multa!!!")
 		}
+		escreva("Programa finalizado! Obrigada!")
 
 
 
@@ -37,7 +38,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 13; 
+ * @POSICAO-CURSOR = 567; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = {peso, 11, 7, 4}-{excesso, 11, 13, 7}-{multa, 11, 22, 5};
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

@@ -11,16 +11,22 @@ contando de 3 em 3 quando estiver entre 300 e 400 e de 5 em 5 quando não estive
 	
 	funcao inicio()
 	{
-		inteiro numero, soma, x
+		inteiro contador
 
-		soma = 0
-		x = 1
+		contador = 233
+
+
 		
 		faca{
-			soma = soma + x
-			x++
+			escreva(contador+"\n")
+			se(contador >= 300 e contador <= 400){
+				contador += 3 //contador = contador + 3
+			}
+			senao{
+				contador = contador + 5
+			}
 			
-		}enquanto(x <= numero )
+		}enquanto(contador <= 456 )
 
 		
 	}
@@ -30,9 +36,9 @@ contando de 3 em 3 quando estiver entre 300 e 400 e de 5 em 5 quando não estive
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 319; 
+ * @POSICAO-CURSOR = 521; 
  * @PONTOS-DE-PARADA = ;
- * @SIMBOLOS-INSPECIONADOS = {soma, 14, 18, 4};
+ * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
  * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
  */
